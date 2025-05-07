@@ -1,6 +1,6 @@
 # MCP Craftgate Projesi
 
-## Proje Nedir? (Aptala Anlatır Gibi)
+## Proje Nedir?
 
 Bu proje, **Craftgate** ödeme altyapısı ile entegre çalışan bir **MCP (Model Context Protocol) sunucusudur**. Yani, ödeme işlemlerini sorgulamak, raporlamak ve yönetmek için bir arayüz sağlar. Proje, Spring Boot ile yazılmıştır ve Craftgate API'sine bağlanarak ödeme verilerini işler.
 
@@ -121,4 +121,4 @@ C: Evet, Gradle ilk derlemede tüm bağımlılıkları otomatik indirir.
 
 ---
 
-Her adımı harfiyen uygularsan, projenin JAR dosyasını oluşturup MCP ortamında kullanabilirsin. Takıldığın bir yer olursa, adım adım tekrar kontrol et veya yardım iste! 
+Tüm adımları takip ederek projenin JAR dosyasını oluşturabilir ve MCP ortamında kullanabilirsin. Takıldığın bir yer olursa, adım adım tekrar kontrol edebilir veya yardım isteyebilirsin! 
