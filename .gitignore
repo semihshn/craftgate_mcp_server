@@ -1,0 +1,51 @@
+# Dokümantasyon ve yardımcı dosyalar
+HELP.md
+
+# Build klasörleri ve derleme çıktıları
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kaynak kod içindeki build ve bin klasörleri (main/test)
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# IDE ve editör dosyaları
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.vscode/
+
+# Spring Tool Suite (STS) ve Eclipse
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Diğer
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# JAR, WAR, EAR gibi derlenmiş dosyalar (isteğe bağlı)
+# *.jar
+# *.war
+# *.ear
